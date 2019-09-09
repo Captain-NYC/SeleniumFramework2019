@@ -33,10 +33,8 @@ public class AmazonSearchTest extends Config {
 		}
 
 		String expected = "\"music\"";
-		//System.out.println(expected); //"music" text should show next to the search results
-
 		String actual = exp.getText();
-		//System.out.println(actual); //this will print out the actual result
+		System.out.println(actual); //this will print out the actual result
 
 		// assertion - verify
 		if(expected.equalsIgnoreCase(actual))
@@ -71,10 +69,8 @@ public class AmazonSearchTest extends Config {
 		}
 
 		String expected = "\"movies\"";
-		//System.out.println(expected); //"movies" text should show next to the search results
-
 		String actual = exp.getText();
-		//System.out.println(actual); //this will print out the actual result
+		System.out.println(actual); //this will print out the actual result
 
 		// assertion - verify
 		if(expected.equalsIgnoreCase(actual))
@@ -110,10 +106,8 @@ public class AmazonSearchTest extends Config {
 		}
 
 		String expected = "\"cd\"";
-		//System.out.println(expected); //"cd" text should show next to the search results
-
 		String actual = exp.getText();
-		//System.out.println(actual); //this will print out the actual result
+		System.out.println(actual); //this will print out the actual result
 
 		// assertion - verify
 		if(expected.equalsIgnoreCase(actual))
