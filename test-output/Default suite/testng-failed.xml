@@ -5,8 +5,11 @@
     <classes>
       <class name="test_Amazon.TC1_SearchForProducts">
         <methods>
-          <include name="beforeTestStart"/>
-          <include name="SearchForMusic"/>
+          <include name="amazonSearchForCD"/>
+          <include name="amazonSearchForMusic"/>
+          <include name="beforeEachMethod"/>
+          <include name="afterEachMethod"/>
+          <include name="amazonSearchForMovie"/>
         </methods>
       </class> <!-- test_Amazon.TC1_SearchForProducts -->
     </classes>
