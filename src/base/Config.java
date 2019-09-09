@@ -1,19 +1,20 @@
 package base;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
+
 public class Config {
-	WebDriver driver;
+	public WebDriver driver;
 
 	@BeforeMethod
 	public void beforeEachMethod(){
 		System.out.println("Before each method");
-		System.setProperty("webdriver.chrome.driver","‎⁨/Users⁩/Sadek⁩/⁨Documents⁩/GitHub⁩/⁨SeleniumFramework2019/drivers/chromedriver");
-		driver = new ChromeDriver();
-		driver.get("https://www.amazon.com");
+		System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+"/drivers/geckodriver");
+		driver = new FirefoxDriver();
+		driver.get("https://www.amazon.com/");
 	}
 
 	@AfterMethod
