@@ -57,6 +57,5 @@ public class AmazonSearchTest extends Config {
 		String actualValue = actual.replaceAll("\"", "");
 		Assert.assertEquals(actualValue, expected);
 
-
 	}
 }

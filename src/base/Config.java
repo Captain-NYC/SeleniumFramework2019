@@ -20,7 +20,7 @@ public class Config {
 	@AfterMethod
 	public void afterEachMethod(){
 		System.out.println("After each method");
-		System.out.println (" ==========  ");
+		System.out.println (" ============  ");
 		driver.quit();
 
 	}
