@@ -2,44 +2,44 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="42830" started-at="2019-09-09T08:22:28Z" finished-at="2019-09-09T08:23:11Z">
+  <suite name="Default suite" duration-ms="44517" started-at="2019-09-16T06:57:22Z" finished-at="2019-09-16T06:58:06Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="42830" started-at="2019-09-09T08:22:28Z" finished-at="2019-09-09T08:23:11Z">
+    <test name="Default test" duration-ms="44517" started-at="2019-09-16T06:57:22Z" finished-at="2019-09-16T06:58:06Z">
       <class name="test.AmazonSearchTest">
-        <test-method status="PASS" signature="beforeEachMethod()[pri:0, instance:test.AmazonSearchTest@5c7fa833]" name="beforeEachMethod" is-config="true" duration-ms="6187" started-at="2019-09-09T08:22:28Z" finished-at="2019-09-09T08:22:35Z">
+        <test-method status="PASS" signature="beforeEachMethod()[pri:0, instance:test.AmazonSearchTest@5c7fa833]" name="beforeEachMethod" is-config="true" duration-ms="5652" started-at="2019-09-16T06:57:22Z" finished-at="2019-09-16T06:57:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeEachMethod -->
-        <test-method status="PASS" signature="amazonSearchForCD()[pri:0, instance:test.AmazonSearchTest@5c7fa833]" name="amazonSearchForCD" duration-ms="8066" started-at="2019-09-09T08:22:35Z" finished-at="2019-09-09T08:22:43Z">
+        <test-method status="PASS" signature="amazonSearchForCD()[pri:0, instance:test.AmazonSearchTest@5c7fa833]" name="amazonSearchForCD" duration-ms="11151" started-at="2019-09-16T06:57:27Z" finished-at="2019-09-16T06:57:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- amazonSearchForCD -->
-        <test-method status="PASS" signature="afterEachMethod()[pri:0, instance:test.AmazonSearchTest@5c7fa833]" name="afterEachMethod" is-config="true" duration-ms="809" started-at="2019-09-09T08:22:43Z" finished-at="2019-09-09T08:22:43Z">
+        <test-method status="PASS" signature="afterEachMethod()[pri:0, instance:test.AmazonSearchTest@5c7fa833]" name="afterEachMethod" is-config="true" duration-ms="748" started-at="2019-09-16T06:57:39Z" finished-at="2019-09-16T06:57:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachMethod -->
-        <test-method status="PASS" signature="beforeEachMethod()[pri:0, instance:test.AmazonSearchTest@5c7fa833]" name="beforeEachMethod" is-config="true" duration-ms="4403" started-at="2019-09-09T08:22:43Z" finished-at="2019-09-09T08:22:48Z">
+        <test-method status="PASS" signature="beforeEachMethod()[pri:0, instance:test.AmazonSearchTest@5c7fa833]" name="beforeEachMethod" is-config="true" duration-ms="4848" started-at="2019-09-16T06:57:39Z" finished-at="2019-09-16T06:57:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeEachMethod -->
-        <test-method status="PASS" signature="amazonSearchForMovie()[pri:0, instance:test.AmazonSearchTest@5c7fa833]" name="amazonSearchForMovie" duration-ms="7367" started-at="2019-09-09T08:22:48Z" finished-at="2019-09-09T08:22:55Z">
+        <test-method status="PASS" signature="amazonSearchForMovie()[pri:0, instance:test.AmazonSearchTest@5c7fa833]" name="amazonSearchForMovie" duration-ms="6572" started-at="2019-09-16T06:57:44Z" finished-at="2019-09-16T06:57:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- amazonSearchForMovie -->
-        <test-method status="PASS" signature="afterEachMethod()[pri:0, instance:test.AmazonSearchTest@5c7fa833]" name="afterEachMethod" is-config="true" duration-ms="825" started-at="2019-09-09T08:22:55Z" finished-at="2019-09-09T08:22:56Z">
+        <test-method status="PASS" signature="afterEachMethod()[pri:0, instance:test.AmazonSearchTest@5c7fa833]" name="afterEachMethod" is-config="true" duration-ms="794" started-at="2019-09-16T06:57:51Z" finished-at="2019-09-16T06:57:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachMethod -->
-        <test-method status="PASS" signature="beforeEachMethod()[pri:0, instance:test.AmazonSearchTest@5c7fa833]" name="beforeEachMethod" is-config="true" duration-ms="6843" started-at="2019-09-09T08:22:56Z" finished-at="2019-09-09T08:23:03Z">
+        <test-method status="PASS" signature="beforeEachMethod()[pri:0, instance:test.AmazonSearchTest@5c7fa833]" name="beforeEachMethod" is-config="true" duration-ms="4677" started-at="2019-09-16T06:57:52Z" finished-at="2019-09-16T06:57:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeEachMethod -->
-        <test-method status="PASS" signature="amazonSearchForMusic()[pri:0, instance:test.AmazonSearchTest@5c7fa833]" name="amazonSearchForMusic" duration-ms="7503" started-at="2019-09-09T08:23:03Z" finished-at="2019-09-09T08:23:10Z">
+        <test-method status="PASS" signature="amazonSearchForMusic()[pri:0, instance:test.AmazonSearchTest@5c7fa833]" name="amazonSearchForMusic" duration-ms="9278" started-at="2019-09-16T06:57:56Z" finished-at="2019-09-16T06:58:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- amazonSearchForMusic -->
-        <test-method status="PASS" signature="afterEachMethod()[pri:0, instance:test.AmazonSearchTest@5c7fa833]" name="afterEachMethod" is-config="true" duration-ms="797" started-at="2019-09-09T08:23:10Z" finished-at="2019-09-09T08:23:11Z">
+        <test-method status="PASS" signature="afterEachMethod()[pri:0, instance:test.AmazonSearchTest@5c7fa833]" name="afterEachMethod" is-config="true" duration-ms="767" started-at="2019-09-16T06:58:06Z" finished-at="2019-09-16T06:58:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachMethod -->
