@@ -11,7 +11,7 @@ public class AmazonSearchTest extends Config {
 
 	// In this class, we are running each test using @Test - TestNG annotation
 
-	@Test
+	@Test (priority = 1)
 	public void amazonSearchForMusic(){
 		System.out.println(" this is amazon MUSIC search test ");
 		// enter music in edit/search box
@@ -27,7 +27,7 @@ public class AmazonSearchTest extends Config {
 
 	}
 
-	@Test
+	@Test (priority = 2)
 	public void amazonSearchForMovie(){
 		System.out.println(" this is amazon MOVIE search test ");
 		// enter "movies" in edit/search box
@@ -43,7 +43,7 @@ public class AmazonSearchTest extends Config {
 
 	}
 
-	@Test
+	@Test (priority = 3)
 	public void amazonSearchForCD(){
 		System.out.println(" this is amazon CD search test ");
 		// enter "cd" in edit/search box
